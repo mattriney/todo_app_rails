@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+ .sidebar {
+    max-width: 14rem !important;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #455dc7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .sidebar .logo {
+    font-size: 1.6rem;
+  }
+  
+  .sidebar .nav-link:hover, .sidebar .nav-link.active {
+    background-color: #5b72d6;
+    opacity: 1;
+  }
+  
+  .sidebar .nav-link span {
+    font-size: 1rem;
+  }
+  .sidebar .nav-link {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    font-size: 1rem;
+    position: relative;
+    opacity: 0.9;
+  }
+  
